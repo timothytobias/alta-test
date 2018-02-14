@@ -94,7 +94,244 @@ p.label {
 	font-style:italic !important;
 }
 
-/* AdRotate Right Sidebar */
+/*modifications added from Customize: Additional CSS sidebar*/
+
+/*------MAILCHIMP FORM -----------------------*/
+
+/*HOME PAGE: adding height to middle section containing the MailChimp Form*/
+
+.page-id-709 .news-feature{
+	height:396px;
+}
+
+/*DESKTOP Sidebar MailChimp Form (Text Widget) */
+
+@media (min-width:1025px) { #sidebar-newsletter   input#submit.sidebar {
+	display:block;
+	}
+}
+
+@media (min-width: 801px) {
+#sidebar-newsletter input#submit.sidebar {
+    display:block;
+}
+}
+
+/*IPHONE7 horiz and vertical*/
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { #sidebar-newsletter input#submit.sidebar{
+		display:block;
+		}
+}
+
+/*HOME PAGE HORIZONTAL MailChimp Form mc4wp */
+
+/*horizontal container*/
+
+.page-id-709 mc4wp-form-fields{
+	height:165px;
+	margin-top: 34px;
+}
+
+/*button*/
+.page-id-709 input#submit.sidebar {
+	position:relative;
+	top:3px;
+
+}
+
+/*email input*/
+#hp-newsletter #email {
+	width: 268px;
+}
+
+#hp-newsletter input {
+	  width: 400px;
+    margin-top: 6px;
+    border: 1px solid #d4d4d4;
+    padding-left: 13px;
+    height: 41px;
+}
+
+/*zip input*/
+#hp-newsletter input.zip-input{
+	width:206px;
+  margin-left:5px;
+}
+
+/*alert message*/
+.mc4wp-alert.mc4wp-error p{
+	display:none;
+}
+
+/*MOBILE Home Page Vertical - MailChimp Form mc4wp*/
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { #hp-newsletter {
+	height:180px
+		}
+}
+
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { #hp-newsletter input.zip-input{
+		float:left;
+		margin-left:0px;
+		}
+}
+
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { #hp-newsletter input#submit {
+		position:relative;
+		top:40px;
+    left:-196px;	}
+}
+
+hp-newsletter #submit {
+    margin-top: 13px;
+    position: relative;
+    top: 42px;
+    left: -196px;
+}
+
+/*FEATURES/JOURNALS/REVIEWS MailChimp sidebar email form*/
+
+/*email input*/
+#sidebar-newsletter input{
+	  height: 40px;
+    border: 1px solid #d4d4d4;
+    padding-left: 5px;
+}
+
+/*zip input*/
+#sidebar-newsletter input.zip-input{
+	margin-left:0px;
+	margin-top:6px;
+}
+
+/*MOBILE iPhone 7 MailChimp Form mc4wp - Right Sidebar stack*/
+
+/*horizontal iPhone7*/
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { #df-archive-content{
+		padding-right: 17px;
+ }
+}
+
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { .sidebar
+		{
+		padding-left:0px;
+		margin-top:-38px;
+	}
+}
+
+@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { section#text-3.widget.widget_text{
+		margin-top: 67px;
+		margin-left:17px;
+		width:350px;
+	}
+}
+
+
+/*FIREFOX DESKTOP tweaking sidebar MailChimp form for FireFox*/
+
+@-moz-document url-prefix() {
+  #sidebar-newsletter
+	input#submit.sidebar {
+    display:block;
+}
+}
+
+@-moz-document url-prefix(){
+	@media (min-width: 801px) {
+  #sidebar-newsletter input#submit.sidebar {
+    display:block;
+    }
+	}
+}
+
+@-moz-document url-prefix(){
+	@media (min-width: 1025px) {
+  #sidebar-newsletter input#submit.sidebar {
+    display:block;
+    }
+	}
+}
+
+@-moz-document url-prefix(){
+	@media only screen
+and (min-device-width : 375px)
+	and (max-device-width : 667px) { #sidebar-newsletter input#submit.sidebar{
+		position:relative;
+		top:51px;
+		left:-157px;
+		}
+	}
+}
+/*end mailchimp form for FireFox*/
+
+/*--------ADS SIDEBAR-----------------------------*/
+
+/*DESKTOP Sidebar Ad (Text Widget)*/
+
+@media (min-width:1025px) {
+section#text-3.widget.widget_text{
+	position:relative;
+	top:39px;
+	margin-left:17px;
+	}
+}
+
+@media (min-width:1025px) {
+section#text-4.widget.widget_text{
+	margin-left:17px;
+ }
+}
+
+/*CONTACT PAGE Contact-3 (post 2806)*/
+
+.page-id-2806 h1.entry-title  {display:none;
+}
+
+.page-id-2806 .col-md-12.no-padding{
+	height:0px;
+}
+
+.page-id-2806 .df-category-header {
+	display:none;
+}
+
+.page-id-2806 .vc_sep_line{
+	border-top-width:2px;
+	border-color:#000000;
+}
+
+.page-id-2806 h5{
+	font-family: "Giza Five Five";
+	font-size:42px !important;
+	text-align:center;
+}
+
+.page-id-2806 p{line-height:32px;
+}
+
+.page-id-2806 .df-container-subfooter.df-container-fluid {padding-top:56px;
+}
+
+.page-id-2806 .container.df-footer{padding-top:30px;
+}
+
+.page-id-2806 .df-vc-container a{color:#005ce6 !important;
+}
+
+/* ADS AdRotate Right Sidebar */
 
 .df-widget-title {
 	display:none !important;
